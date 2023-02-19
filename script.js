@@ -1,4 +1,4 @@
-fetch("http://zenquotes.io/api/random")
+fetch("https://api.quotable.io/random")
 .then(data => data.json())
 .then(quotesData => {
     
